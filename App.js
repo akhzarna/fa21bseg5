@@ -27,68 +27,31 @@ import { StyleSheet,
 export default function App() {
 
   return (
+    <View style={{alignItems:'center', justifyContent:'center'}}>
+     
+      <Text style={{marginTop:140}}> My First Program</Text>
 
-    <View>
-      <Text>
-        In the name of Allah
-
-      </Text>
-
-      <Text>
-        In the name of Allah
-        
-      </Text>
-
-      <Text>
-        In the name of Allah
-        
-      </Text>
-
-
-      <Text>
-        In the name of Allah
-        
-      </Text>
-
-      <Text>
-        In the name of Allah
-        
-      </Text>
-
-      <Text>
-        In the name of Allah
-      </Text>
-
-      <Button
-      // onPress={onPressLearnMore}
-      title="Learn More"
-      color="#841584"
-      accessibilityLabel="Learn more about this purple button"
+      <TextInput
+        style={{backgroundColor:'grey', width:100,height:40}}
+        // onChangeText={onChangeText}
+        // value={text}
       />
+
+    <Button
+        // onPress={onPressLearnMore}
+        title="Login"
+        color="#841584"
+       accessibilityLabel="Learn more about this purple button"
+/>
 
 <Button
-      // onPress={onPressLearnMore}
-      title="Learn More"
-      color="#841584"
-      accessibilityLabel="Learn more about this purple button"
-      />
-
-<Button
-      // onPress={onPressLearnMore}
-      title="Learn More"
-      color="#841584"
-      accessibilityLabel="Learn more about this purple button"
-      />
-      <Button
-      // onPress={onPressLearnMore}
-      title="Learn More"
-      color="#841584"
-      accessibilityLabel="Learn more about this purple button"
-      />
-      
-
+        // onPress={onPressLearnMore}
+        title="Register"
+        color="#841584"
+       accessibilityLabel="Learn more about this purple button"
+/>
+ 
     </View>
-    
   );
 }
 
