@@ -50,6 +50,14 @@ export default function App() {
         color="#841584"
        accessibilityLabel="Learn more about this purple button"
 />
+
+<Button
+        // onPress={onPressLearnMore}
+        title="Register"
+        color="#841584"
+       accessibilityLabel="Learn more about this purple button"
+/>
+
  
     </View>
   );
